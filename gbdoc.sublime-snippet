@@ -1,0 +1,28 @@
+<snippet>
+	<description>GbDoc</description>
+    <content>
+<![CDATA[
+#Include "TOTVS.CH"
+#Include "TOPCONN.CH"
+#Include "TBICONN.CH"
+#Include "FWMVCDEF.CH"
+#Include "FWMBROWSE.CH"
+#Include "FWBROWSE.CH"
+
+//----------------------------------------------------------------------------------------------------
+/*/{Protheus.doc} ${function_method_class_name}
+
+Descrição da rotina
+
+@author Gabriel Barbosa
+@since DD/MM/AAAA
+@version 1.0
+
+/*/
+//----------------------------------------------------------------------------------------------------
+
+//----------------------------------------------------------------------------------------------------
+]]></content>
+    <tabTrigger>GbDoc</tabTrigger>
+    <scope>source.AdvPL</scope>
+</snippet>

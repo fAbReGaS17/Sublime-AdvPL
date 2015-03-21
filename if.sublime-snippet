@@ -1,0 +1,16 @@
+<snippet>
+	<description>If..ElseIf..Else..EndIf</description>
+    <content>
+<![CDATA[
+If (${1:condicion})
+	${0:// True}
+ElseIf
+	${2:// True}
+Else
+	${3:// False}
+EndIf
+]]>
+	</content>
+    <tabTrigger>If</tabTrigger>
+    <scope>source.AdvPL</scope>
+</snippet>

@@ -1,0 +1,32 @@
+<snippet>
+	<description>Query</description>
+    <content>
+<![CDATA[
+Private cProcName		:= StrTran(ProcName(), "U_", "")
+
+
+Local cQuery			:= ""
+Local cALiasQry			:= GetNextAlias()
+Local nRegs				:= 0
+
+cQuery += ""
+
+MemoWrite("C:\_TOTVS\" + cProcName + "_" + ProcName() + ".sql", cQuery)
+
+dbUseArea(.T., "TOPCONN", TcGenQry( , , cQuery), cAliasQry)
+
+Count To nRegs
+
+If nRegs > 0
+	(cALiasQry)->(dbGoTop())
+	While !(cALiasQry)->(Eof())
+		(cALiasQry)->(dbSkip())
+	EndDo
+EndIf
+
+(cALiasQry)->(dbCloseArea())
+]]>
+	</content>
+    <tabTrigger>Query</tabTrigger>
+    <scope>source.AdvPL</scope>
+</snippet>

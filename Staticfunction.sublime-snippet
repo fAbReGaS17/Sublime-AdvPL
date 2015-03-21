@@ -1,0 +1,10 @@
+<snippet>
+	<description>Static Function</description>
+    <content>
+<![CDATA[Static Function ${ ${1: nameFunction () }
+	${2:/* code */} 	
+Return Nil]]></content>
+    <tabTrigger>Static Function</tabTrigger>
+    <scope>source.AdvPL</scope>
+</snippet>
+

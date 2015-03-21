@@ -1,0 +1,13 @@
+<snippet>
+	<description>Do Case</description>
+    <content>
+<![CDATA[
+Do Case
+   Case ${1:/* condition */}
+		${2:/* code */}
+   OtherWise
+		${2:/* code */}
+EndCase]]></content>
+    <tabTrigger>DoCase</tabTrigger>
+    <scope>source.AdvPL</scope>
+</snippet>

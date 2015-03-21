@@ -1,0 +1,11 @@
+{
+	"cmd": ["java", "-jar", "C:\\Temp\\tdscli.jar"
+	       , "compile", "PROGRAM=$file", "server=\"localhost\"", "port=\"1001\""
+	       , "environment=\"P11\"", "user=\"admin\""
+	       , "psw=\"\""
+	       , "build=\"7.00.131227A\""
+	       , "includes=\"C:\\NGAP115\\include\""
+	       , "serverType=\"Advpl\""],
+	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+   "selector": "source.advpl"
+}

@@ -1,0 +1,9 @@
+<snippet>
+	<description>static</description>
+    <content>
+<![CDATA[Static ${1:xNameVar := valVar }	
+]]></content>
+    <tabTrigger>static</tabTrigger>
+    <scope>source.AdvPL</scope>
+</snippet>
+

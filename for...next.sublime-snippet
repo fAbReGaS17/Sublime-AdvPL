@@ -1,0 +1,8 @@
+<snippet>
+    <description>for...next</description>
+    <content><![CDATA[For ${1:nIX} := 1 To ${2:Len(n)}
+${3:/* code */}
+Next nIX]]></content>
+    <tabTrigger>For</tabTrigger>    
+    <scope>source.AdvPL</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<description>Local</description>
+    <content>
+<![CDATA[Local ${1:xNameVar := valVar }	
+]]></content>
+    <tabTrigger>Local</tabTrigger>
+    <scope>source.AdvPL</scope>
+</snippet>
+

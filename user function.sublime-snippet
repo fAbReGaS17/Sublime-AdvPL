@@ -1,0 +1,15 @@
+<snippet>
+	<description>User Function</description>
+    <content>
+<![CDATA[
+User Function ${1:nameFunction()}
+
+	${2:/* corpo da Funcao */}
+
+Return ${3:Nil}
+]]>
+	</content>
+    <tabTrigger>User Function</tabTrigger>
+    <scope>source.AdvPL</scope>
+</snippet>
+

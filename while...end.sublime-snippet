@@ -1,0 +1,11 @@
+<snippet>
+	<description>While End</description>
+    <content>
+<![CDATA[While ${${1:!(Table)->( Eof() ) }
+	${2:/* code */} 
+	${3:(table)->( dbSkip() ) }
+End]]></content>
+    <tabTrigger>While</tabTrigger>
+    <scope>source.AdvPL</scope>
+</snippet>
+

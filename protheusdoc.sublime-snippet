@@ -1,0 +1,24 @@
+<snippet>
+	<description>ProtheusDoc</description>
+    <content>
+<![CDATA[
+//---------------------------------------------------------------------
+
+/*/{Protheus.doc} nameFunction
+
+Descricao da funcao
+
+@author Sublime
+@since XX/XX/XXXX
+@build 7.00.100601A-20100707
+@version MP12
+@return Nil
+/*/
+
+//---------------------------------------------------------------------
+
+]]></content>
+    <tabTrigger>ProtheusDoc</tabTrigger>
+    <scope>source.AdvPL</scope>
+</snippet>
+

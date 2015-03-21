@@ -1,0 +1,9 @@
+<snippet>
+	<description>Private</description>
+    <content>
+<![CDATA[Private ${1:xNameVar := valVar }	
+]]></content>
+    <tabTrigger>Private</tabTrigger>
+    <scope>source.AdvPL</scope>
+</snippet>
+

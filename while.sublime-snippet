@@ -1,0 +1,9 @@
+<snippet>
+	<description>While...EndDo</description>
+    <content>
+<![CDATA[While ${1:/* condition */}
+${2:/* code */}
+EndDo]]></content>
+    <tabTrigger>While</tabTrigger>
+    <scope>source.AdvPL</scope>
+</snippet>
