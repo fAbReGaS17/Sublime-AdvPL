@@ -1,11 +1,16 @@
 {
-	"cmd": ["java", "-jar", "C:\\Temp\\tdscli.jar"
-	       , "compile", "PROGRAM=$file", "server=\"localhost\"", "port=\"1001\""
-	       , "environment=\"P11\"", "user=\"admin\""
-	       , "psw=\"\""
-	       , "build=\"7.00.131227A\""
-	       , "includes=\"C:\\NGAP115\\include\""
-	       , "serverType=\"Advpl\""],
+	"cmd": ["java", "-jar", "/Users/fAbReGaS/Documents/TOTVS/TDS/tdscli.jar"
+	       , "compile"
+	       , "PROGRAM=$file"
+	       , "serverType=Advpl"
+	       , "server=10.211.55.8"
+	       , "port=2501"
+	       , "environment=TOTME_DEV"
+	       , "user=admin"
+	       , "psw="
+	       , "includes=/Users/fAbReGaS/Documents/TOTVS/INCLUDES/"
+	       , "build=7.00.131227A"],
 	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
-   "selector": "source.advpl"
+    "selector": "source.AdvPL"
+
 }
